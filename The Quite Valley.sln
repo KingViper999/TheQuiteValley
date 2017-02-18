@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Quite Valley.CSharp.Plugins", "The Quite Valley.CSharp.Plugins.csproj", "{B3E7215E-651F-AEC9-0671-A1B2B238EC58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Quite Valley.CSharp", "The Quite Valley.CSharp.csproj", "{65E996A7-85AA-316A-FF77-99AEDA0F07B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Quite Valley.CSharp.Editor", "The Quite Valley.CSharp.Editor.csproj", "{D4DAA866-9802-BECA-2A7D-B368B23125BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3E7215E-651F-AEC9-0671-A1B2B238EC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E7215E-651F-AEC9-0671-A1B2B238EC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E7215E-651F-AEC9-0671-A1B2B238EC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E7215E-651F-AEC9-0671-A1B2B238EC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E996A7-85AA-316A-FF77-99AEDA0F07B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E996A7-85AA-316A-FF77-99AEDA0F07B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E996A7-85AA-316A-FF77-99AEDA0F07B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E996A7-85AA-316A-FF77-99AEDA0F07B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4DAA866-9802-BECA-2A7D-B368B23125BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4DAA866-9802-BECA-2A7D-B368B23125BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4DAA866-9802-BECA-2A7D-B368B23125BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4DAA866-9802-BECA-2A7D-B368B23125BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
