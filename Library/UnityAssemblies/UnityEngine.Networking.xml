@@ -101,7 +101,11 @@
     </member>
     <member name="M:UnityEngine.Networking.ClientScene.AddPlayer(UnityEngine.Networking.NetworkConnection,System.Int16,UnityEngine.Networking.MessageBase)">
       <summary>
+<<<<<<< HEAD
         <para>This adds a player object for this client. This causes an AddPlayer message to be sent to the server, and NetworkManager.OnServerAddPlayer will be called. If an extra message was passed to AddPlayer, then OnServerAddPlayer will be called with a NetworkReader that contains the contents of the message.</para>
+=======
+        <para>This adds a player GameObject for this client. This causes an AddPlayer message to be sent to the server, and NetworkManager.OnServerAddPlayer is called. If an extra message was passed to AddPlayer, then OnServerAddPlayer will be called with a NetworkReader that contains the contents of the message.</para>
+>>>>>>> 3a765fd905663ee6996c89d7af47d3776efaf292
       </summary>
       <param name="readyConn">The connection to become ready for this client.</param>
       <param name="playerControllerId">The local player ID number.</param>
@@ -112,7 +116,11 @@
     </member>
     <member name="M:UnityEngine.Networking.ClientScene.AddPlayer(UnityEngine.Networking.NetworkConnection,System.Int16)">
       <summary>
+<<<<<<< HEAD
         <para>This adds a player object for this client. This causes an AddPlayer message to be sent to the server, and NetworkManager.OnServerAddPlayer will be called. If an extra message was passed to AddPlayer, then OnServerAddPlayer will be called with a NetworkReader that contains the contents of the message.</para>
+=======
+        <para>This adds a player GameObject for this client. This causes an AddPlayer message to be sent to the server, and NetworkManager.OnServerAddPlayer is called. If an extra message was passed to AddPlayer, then OnServerAddPlayer will be called with a NetworkReader that contains the contents of the message.</para>
+>>>>>>> 3a765fd905663ee6996c89d7af47d3776efaf292
       </summary>
       <param name="readyConn">The connection to become ready for this client.</param>
       <param name="playerControllerId">The local player ID number.</param>
@@ -123,7 +131,11 @@
     </member>
     <member name="M:UnityEngine.Networking.ClientScene.AddPlayer(System.Int16)">
       <summary>
+<<<<<<< HEAD
         <para>This adds a player object for this client. This causes an AddPlayer message to be sent to the server, and NetworkManager.OnServerAddPlayer will be called. If an extra message was passed to AddPlayer, then OnServerAddPlayer will be called with a NetworkReader that contains the contents of the message.</para>
+=======
+        <para>This adds a player GameObject for this client. This causes an AddPlayer message to be sent to the server, and NetworkManager.OnServerAddPlayer is called. If an extra message was passed to AddPlayer, then OnServerAddPlayer will be called with a NetworkReader that contains the contents of the message.</para>
+>>>>>>> 3a765fd905663ee6996c89d7af47d3776efaf292
       </summary>
       <param name="readyConn">The connection to become ready for this client.</param>
       <param name="playerControllerId">The local player ID number.</param>
@@ -204,7 +216,11 @@
     </member>
     <member name="M:UnityEngine.Networking.ClientScene.RegisterSpawnHandler(UnityEngine.Networking.NetworkHash128,UnityEngine.Networking.SpawnDelegate,UnityEngine.Networking.UnSpawnDelegate)">
       <summary>
+<<<<<<< HEAD
         <para>This is an advanced spawning funciotn that registers a custom assetId with the UNET spawning system.</para>
+=======
+        <para>This is an advanced spawning function that registers a custom assetId with the UNET spawning system.</para>
+>>>>>>> 3a765fd905663ee6996c89d7af47d3776efaf292
       </summary>
       <param name="assetId">Custom assetId string.</param>
       <param name="spawnHandler">A method to use as a custom spawnhandler on clients.</param>
@@ -212,13 +228,29 @@
     </member>
     <member name="M:UnityEngine.Networking.ClientScene.RemovePlayer(System.Int16)">
       <summary>
+<<<<<<< HEAD
         <para>Remove the specified player ID from the game.</para>
+=======
+        <para>Removes the specified player ID from the game.</para>
+>>>>>>> 3a765fd905663ee6996c89d7af47d3776efaf292
       </summary>
       <param name="playerControllerId">The local playerControllerId number to be removed.</param>
       <returns>
         <para>Returns true if the player was successfully destoyed and removed.</para>
       </returns>
     </member>
+<<<<<<< HEAD
+=======
+    <member name="M:UnityEngine.Networking.ClientScene.SendReconnectMessage(UnityEngine.Networking.MessageBase)">
+      <summary>
+        <para>Send a reconnect message to the new host, used during host migration.</para>
+      </summary>
+      <param name="extraMessage">Any extra data to send.</param>
+      <returns>
+        <para>Returns true if the send succeeded.</para>
+      </returns>
+    </member>
+>>>>>>> 3a765fd905663ee6996c89d7af47d3776efaf292
     <member name="M:UnityEngine.Networking.ClientScene.SetLocalObject">
       <summary>
         <para>NetId is a unique number assigned to all objects with NetworkIdentity components in a game.</para>
@@ -1095,6 +1127,14 @@
         <para>Flag that tells if the connection has been marked as "ready" by a client calling ClientScene.Ready().</para>
       </summary>
     </member>
+<<<<<<< HEAD
+=======
+    <member name="P:UnityEngine.Networking.NetworkConnection.lastError">
+      <summary>
+        <para>The last error associated with this connection.</para>
+      </summary>
+    </member>
+>>>>>>> 3a765fd905663ee6996c89d7af47d3776efaf292
     <member name="F:UnityEngine.Networking.NetworkConnection.lastMessageTime">
       <summary>
         <para>The last time that a message was received on this connection.</para>
@@ -1585,7 +1625,11 @@
     </member>
     <member name="P:UnityEngine.Networking.NetworkIdentity.playerControllerId">
       <summary>
+<<<<<<< HEAD
         <para>The id of the player associated with this object.</para>
+=======
+        <para>The id of the player associated with this GameObject.</para>
+>>>>>>> 3a765fd905663ee6996c89d7af47d3776efaf292
       </summary>
     </member>
     <member name="P:UnityEngine.Networking.NetworkIdentity.sceneId">
@@ -2673,7 +2717,11 @@ All of the player objects in the game are disabled when the host is lost. Then, 
     </member>
     <member name="F:UnityEngine.Networking.NetworkMigrationManager.PendingPlayerInfo.playerControllerId">
       <summary>
+<<<<<<< HEAD
         <para>The playerControllerId of the player object.</para>
+=======
+        <para>The playerControllerId of the player GameObject.</para>
+>>>>>>> 3a765fd905663ee6996c89d7af47d3776efaf292
       </summary>
     </member>
     <member name="M:UnityEngine.Networking.NetworkMigrationManager.ReconnectObjectForConnection(UnityEngine.Networking.NetworkConnection,UnityEngine.GameObject,System.Int32)">
@@ -2782,6 +2830,14 @@ All of the player objects in the game are disabled when the host is lost. Then, 
       </summary>
       <param name="buffer">A buffer to construct the reader with, this buffer is NOT copied.</param>
     </member>
+<<<<<<< HEAD
+=======
+    <member name="P:UnityEngine.Networking.NetworkReader.Length">
+      <summary>
+        <para>The current length of the buffer.</para>
+      </summary>
+    </member>
+>>>>>>> 3a765fd905663ee6996c89d7af47d3776efaf292
     <member name="P:UnityEngine.Networking.NetworkReader.Position">
       <summary>
         <para>The current position within the buffer.</para>
@@ -3973,7 +4029,11 @@ All of the player objects in the game are disabled when the host is lost. Then, 
     </member>
     <member name="F:UnityEngine.Networking.NetworkSystem.PeerInfoPlayer.playerControllerId">
       <summary>
+<<<<<<< HEAD
         <para>The playerControllerId of the player object.</para>
+=======
+        <para>The playerControllerId of the player GameObject.</para>
+>>>>>>> 3a765fd905663ee6996c89d7af47d3776efaf292
       </summary>
     </member>
     <member name="T:UnityEngine.Networking.NetworkSystem.PeerListMessage">
@@ -4033,7 +4093,11 @@ All of the player objects in the game are disabled when the host is lost. Then, 
     </member>
     <member name="F:UnityEngine.Networking.NetworkSystem.RemovePlayerMessage.playerControllerId">
       <summary>
+<<<<<<< HEAD
         <para>The player ID of the player object which should be removed.</para>
+=======
+        <para>The player ID of the player GameObject which should be removed.</para>
+>>>>>>> 3a765fd905663ee6996c89d7af47d3776efaf292
       </summary>
     </member>
     <member name="T:UnityEngine.Networking.NetworkSystem.StringMessage">
@@ -4813,7 +4877,11 @@ All of the player objects in the game are disabled when the host is lost. Then, 
     </member>
     <member name="T:UnityEngine.Networking.SyncEventAttribute">
       <summary>
+<<<<<<< HEAD
         <para>This is an attribute that can be put on events in NetworkBehaviour classes to allow them to be invoked on the client when the event is called on the server.</para>
+=======
+        <para>This is an attribute that can be put on events in NetworkBehaviour classes to allow them to be invoked on client when the event is called on the sserver.</para>
+>>>>>>> 3a765fd905663ee6996c89d7af47d3776efaf292
       </summary>
     </member>
     <member name="F:UnityEngine.Networking.SyncEventAttribute.channel">
@@ -5049,7 +5117,11 @@ All of the player objects in the game are disabled when the host is lost. Then, 
     </member>
     <member name="T:UnityEngine.Networking.SyncVarAttribute">
       <summary>
+<<<<<<< HEAD
         <para>[SyncVar] is an attribute that can be put on member variables of UNeBehaviour classes. These variables will have their values sychronized from the server to clients in the game that are in the ready state.</para>
+=======
+        <para>[SyncVar] is an attribute that can be put on member variables of NetworkBehaviour classes. These variables will have their values sychronized from the server to clients in the game that are in the ready state.</para>
+>>>>>>> 3a765fd905663ee6996c89d7af47d3776efaf292
       </summary>
     </member>
     <member name="F:UnityEngine.Networking.SyncVarAttribute.hook">

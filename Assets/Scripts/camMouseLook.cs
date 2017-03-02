@@ -11,8 +11,11 @@ public class camMouseLook : MonoBehaviour
     public float sensitivity = 5.0f;
     // sets smoothing value
     public float smoothing = 2.0f;
+<<<<<<< HEAD
     //public bool Paused = !Paused;
 
+=======
+>>>>>>> 3a765fd905663ee6996c89d7af47d3776efaf292
     GameObject player;
 
     void Start()

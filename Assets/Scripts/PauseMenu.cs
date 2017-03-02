@@ -326,7 +326,11 @@ public class PauseMenu : MonoBehaviour
         }
         EndPage();
     }
+<<<<<<< HEAD
     // pauses time in game when game is paused and stops audio listeners
+=======
+    // pauses time in game when game is paused and stops audio listeners and stops camara movbement
+>>>>>>> 3a765fd905663ee6996c89d7af47d3776efaf292
     void PauseGame()
     {
         savedTimeScale = Time.timeScale;
@@ -335,7 +339,11 @@ public class PauseMenu : MonoBehaviour
         GameObject.FindGameObjectWithTag("MainCamera").GetComponent<camMouseLook>().enabled = false;
         currentPage = Page.Main;
     }
+<<<<<<< HEAD
     // resets time and audio listener
+=======
+    // resets time and audio listener and reactivates camera movement
+>>>>>>> 3a765fd905663ee6996c89d7af47d3776efaf292
     void UnPauseGame()
     {
         Time.timeScale = savedTimeScale;
