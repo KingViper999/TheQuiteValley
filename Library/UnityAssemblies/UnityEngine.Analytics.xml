@@ -4,8 +4,6 @@
     <assembly>
       <name>UnityEngine.Analytics</name>
     </assembly>
-<<<<<<< HEAD
-=======
     <member name="P:UnityEngine.Analytics.AnalyticsTracker.eventName">
       <summary>
         <para>Name of the event.</para>
@@ -16,6 +14,5 @@
         <para>Trigger the instrumented event.</para>
       </summary>
     </member>
->>>>>>> 3a765fd905663ee6996c89d7af47d3776efaf292
   </members>
 </doc>
